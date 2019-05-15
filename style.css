@@ -1,0 +1,82 @@
+/* Main website styles */
+
+/*
+CSS Reset to remove Chrome's
+default styles!
+
+KEEP YOURS THE SAME AS MINE!
+*/
+* {
+  font-size: 100%;
+  line-height: 1;
+  margin: 0;
+}
+
+body {
+  background-color: #5fc5a3;
+  color: #2368bb;
+  font-family: Arial, sans;
+  font-size: 16px;
+  margin: 100px;
+}
+
+/* DIVIDER ELEMENTS */
+header {
+  color: white;
+}
+
+header h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+section {
+  color: white;
+  background-color: #39af37;
+}
+
+footer {
+  background-color: indigo;
+  color: white;
+}
+
+footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+/* COMMON ELEMENTS */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Bree Serif";
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
