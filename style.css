@@ -1,15 +1,13 @@
-/* Main website styles */
-
 /*
-CSS Reset to remove Chrome's
-default styles!
-
+CSS Reset to remove Chrome's default styles!
 KEEP YOURS THE SAME AS MINE!
-*/
+*/\
+
 * {
   font-size: 100%;
   line-height: 1;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,11 +15,18 @@ body {
   color: #2368bb;
   font-family: Arial, sans;
   font-size: 16px;
-  margin: 100px;
+  /* margin: 100px; */
 }
 
 /* DIVIDER ELEMENTS */
+header, section, footer {
+  padding: 30px;
+  margin: 30px;
+}
+
 header {
+  background-color: SandyBrown;
+  border-bottom: 20px dashed yellow;
   color: white;
 }
 
@@ -33,6 +38,7 @@ header h1 {
 section {
   color: white;
   background-color: #39af37;
+  border: 20px ridge purple;
 }
 
 footer {
@@ -70,6 +76,19 @@ h3 {
 
 p {
   line-height: 1.5;
+  /* LONGHAND */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+
+  /* SHORTHAND - SAME AS ABOVE */
+  margin: 15px 0;
+}
+
+/* Lists */
+ol, ul {
+  margin: 15px 0;
 }
 
 a {
@@ -79,4 +98,29 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+img {
+  height: 200px;
+}
+
+/* CUSTOM CLASSES */
+.title {
+  font-size: 100px;
+  text-decoration: underline;
+}
+
+.title-red {
+  color: red;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  /* LONG HAND */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
