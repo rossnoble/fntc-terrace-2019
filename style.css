@@ -129,6 +129,15 @@ img {
 }
 
 .banner {
-  height: 350px;
+  height: 400px;
   background-image: url(images/forest-path-medium.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner p {
+  font-size: 40px;
+  color: yellow;
+  text-align: center;
+  padding-top: 180px;
 }
