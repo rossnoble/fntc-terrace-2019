@@ -18,13 +18,12 @@ body {
   color: #2368bb;
   font-family: Arial, sans;
   font-size: 16px;
-  /* margin: 100px; */
+  margin: 0;
 }
 
 /* DIVIDER ELEMENTS */
 header, section, footer {
   padding: 30px;
-  margin: 30px;
 }
 
 header {
@@ -42,6 +41,7 @@ section {
   color: white;
   background-color: #39af37;
   border: 20px ridge purple;
+  margin: 30px 0;
 }
 
 footer {
